@@ -1,7 +1,10 @@
 @import "./mediaQuery.scss";
 .login-page {
-    padding-top: 4em;
+    padding-top: 8em;
     height: 90vh;
+    @include responsive(phone) {
+        padding-top: 13em;
+    }
     .flex-container {
         height: 100%;
         display: flex;

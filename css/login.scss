@@ -2,6 +2,9 @@
 .login-page {
     padding-top: 4em;
     height: 90vh;
+    @include responsive(phone) {
+        padding-top: 13em;
+    }
     .flex-container {
         height: 100%;
         display: flex;

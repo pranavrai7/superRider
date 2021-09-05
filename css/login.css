@@ -3,6 +3,12 @@
   height: 90vh;
 }
 
+@media only screen and (max-width: 600px) {
+  .login-page {
+    padding-top: 13em;
+  }
+}
+
 .login-page .flex-container {
   height: 100%;
   display: -webkit-box;
