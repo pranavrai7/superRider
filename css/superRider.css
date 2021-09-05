@@ -60,6 +60,12 @@ body {
   z-index: 12;
 }
 
+@media only screen and (max-width: 600px) {
+  .navbar {
+    height: 92px;
+  }
+}
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -104,6 +110,13 @@ body {
   height: auto;
   width: 220px;
 }
+
+@media only screen and (max-width: 600px) {
+  .logo .image-container {
+    width: 150px;
+  }
+}
+
 .logo .image-container img {
   height: 100%;
   width: 100%;
@@ -476,7 +489,7 @@ body {
 
   .navbar-container .hamburger-lines {
     display: block;
-    height: 23px;
+    height: 24px;
     width: 35px;
     position: absolute;
     top: 17px;
@@ -485,6 +498,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .navbar-container .hamburger-lines{
+      top: 34px;
+    }
   }
 
   .navbar-container .hamburger-lines .line {
