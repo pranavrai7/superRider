@@ -56,7 +56,7 @@ body {
   background: rgba(0, 0, 0, 0.776);
   color: #000;
   opacity: 0.85;
-  height: 50px;
+  height: 120px;
   z-index: 12;
 }
 
@@ -76,6 +76,7 @@ body {
   list-style: none;
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
+  margin-top: 3.5rem;
   font-size: 1.2rem;
 }
 
@@ -93,13 +94,14 @@ body {
 
 .logo {
   order: 1;
-  font-size: 2.3rem;
+  font-size: 0.5rem;
   margin-bottom: 0.5rem;
+  margin-top: 3.5rem;
 }
 
 .logo .image-container {
   overflow: hidden;
-  height: 42px;
+  height: auto;
   width: 220px;
 }
 .logo .image-container img {
@@ -108,12 +110,12 @@ body {
 }
 
 .showcase-area {
-  height: 50vh;
+  height: 70vh;
   background: linear-gradient(
       rgba(240, 240, 240, 0.144),
       rgba(255, 255, 255, 0.336)
     ),
-    url("../images/cover.jpg");
+    url("/images/cover.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -490,7 +492,7 @@ body {
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #333;
+    background: rgb(255, 255, 255);
   }
 
   .navbar-container .hamburger-lines .line1 {
@@ -509,7 +511,7 @@ body {
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #fff;
+    background: rgb(17, 17, 17);
     height: 100vh;
     max-width: 300px;
     transform: translate(-150%);
@@ -529,9 +531,13 @@ body {
 
   .logo {
     position: absolute;
-    top: 5px;
+    top: 2px;
+    margin-top: 2rem;
     right: 15px;
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+  .logo img {
+    width: 18rem;
   }
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
@@ -611,6 +617,9 @@ body {
     right: 15px;
     font-size: 3rem;
   }
+  .logo img {
+    width: 13rem;
+  }
 
   .navbar .menu-items li {
     margin-bottom: 2.5rem;
@@ -627,10 +636,16 @@ body {
   .img-container .btn {
     font-size: 0.7rem;
   }
+  .logo img {
+    width: 20rem;
+  }
 }
 
 @media (orientation: landscape) and (max-height: 500px) {
   .showcase-area {
     height: 50vmax;
+  }
+  .logo img {
+    width: 15rem;
   }
 }
