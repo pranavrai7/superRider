@@ -1,0 +1,170 @@
+@import "./mediaQuery.scss";
+.login-page {
+    padding-top: 4em;
+    height: 90vh;
+    .flex-container {
+        height: 100%;
+        display: flex;
+        @include responsive(tab-port) {
+            flex-wrap: wrap;
+        }
+        .left-side {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            .header-welcome {
+                font-size: 2em;
+                font-weight: 600;
+                padding-bottom: 0.5em;
+            }
+            // .login-with-google {
+            //     width: 70%;
+            //     display: flex;
+            //     background: #16a083;
+            //     border-radius: 1em;
+            //     margin-bottom: 0.5em;
+            //     cursor: pointer;
+            //     &:hover {
+            //         background: #138a70;
+            //     }
+            //     @include responsive(tab-port) {
+            //         width: 65%;
+            //     }
+            //     span {
+            //         background-color: white;
+            //         border-top-left-radius: 1em;
+            //         border-bottom-left-radius: 1em;
+            //         padding: 0.4em 0.7em;
+            //         margin: 0 0.4em 0 0;
+            //     }
+            //     .log-text {
+            //         margin: 0 auto;
+            //         padding: 0.5em;
+            //         color: white;
+            //         a {
+            //             text-decoration: none;
+            //             color: white;
+            //         }
+            //     }
+            // }
+            // .or-seperator {
+            //     width: 70%;
+            //     display: flex;
+            //     margin-bottom: 0.3em;
+            //     flex-direction: row;
+            //     &::after,
+            //     &::before {
+            //         content: "";
+            //         flex: 1 1;
+            //         border-bottom: 1px solid;
+            //         margin: auto;
+            //     }
+            //     &::before {
+            //         margin-right: 10px;
+            //     }
+            //     &::after {
+            //         margin-left: 10px;
+            //     }
+            //     @include responsive(tab-port) {
+            //         width: 65%;
+            //     }
+            // }
+
+            .fullName {
+                width: 70%;
+                input {
+                    font-size: 1em;
+                    width: 100%;
+                    padding: 0.3em 0.6em;
+                    outline: none;
+                    border-style: none;
+                    border: 1px solid gray;
+                }
+                @include responsive(tab-port) {
+                    width: 65%;
+                }
+            }
+            .email-input {
+                margin-top: 0.5em;
+                width: 70%;
+                input {
+                    font-size: 1em;
+                    width: 100%;
+                    padding: 0.3em 0.6em;
+                    outline: none;
+                    border-style: none;
+                    border: 1px solid gray;
+                }
+                @include responsive(tab-port) {
+                    width: 65%;
+                }
+            }
+            .password-input {
+                margin-top: 0.5em;
+                width: 70%;
+                input {
+                    font-size: 1em;
+                    width: 100%;
+                    padding: 0.3em 0.6em;
+                    outline: none;
+                    border-style: none;
+                    border: 1px solid gray;
+                }
+                @include responsive(tab-port) {
+                    width: 65%;
+                }
+            }
+            .container-div {
+                margin-top: 0.8em;
+                width: 70%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .toggle-remember {
+                    font-size: 0.9em;
+                }
+                .forgot-password {
+                    font-size: 0.7em;
+                }
+                @include responsive(tab-port) {
+                    width: 65%;
+                }
+            }
+            .login-button {
+                margin-top: 1em;
+                width: 70%;
+                text-align: center;
+                color: white;
+                background: #16a083;
+                border-radius: 1em;
+                margin-bottom: 0.5em;
+                cursor: pointer;
+                padding: 0.3em;
+                &:hover {
+                    background: #138a70;
+                }
+                @include responsive(tab-port) {
+                    width: 65%;
+                }
+            }
+        }
+        .right-side {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .content-right {
+                width: 65%;
+                margin: 0 auto;
+            }
+            @include responsive(tab-port) {
+                padding-top: 1em;
+                justify-content: start;
+            }
+            .signup-page {
+                text-align: center;
+            }
+        }
+    }
+}

@@ -40,82 +40,27 @@
   padding-bottom: 0.5em;
 }
 
-.login-page .flex-container .left-side .login-with-google {
+.login-page .flex-container .left-side .fullName {
   width: 70%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: #16a083;
-  border-radius: 1em;
-  margin-bottom: 0.5em;
-  cursor: pointer;
 }
 
-.login-page .flex-container .left-side .login-with-google:hover {
-  background: #138a70;
+.login-page .flex-container .left-side .fullName input {
+  font-size: 1em;
+  width: 100%;
+  padding: 0.3em 0.6em;
+  outline: none;
+  border-style: none;
+  border: 1px solid gray;
 }
 
 @media only screen and (max-width: 950px) {
-  .login-page .flex-container .left-side .login-with-google {
-    width: 65%;
-  }
-}
-
-.login-page .flex-container .left-side .login-with-google span {
-  background-color: white;
-  border-top-left-radius: 1em;
-  border-bottom-left-radius: 1em;
-  padding: 0.4em 0.7em;
-  margin: 0 0.4em 0 0;
-}
-
-.login-page .flex-container .left-side .login-with-google .log-text {
-  margin: 0 auto;
-  padding: 0.5em;
-  color: white;
-}
-
-.login-page .flex-container .left-side .login-with-google .log-text a {
-  text-decoration: none;
-  color: white;
-}
-
-.login-page .flex-container .left-side .or-seperator {
-  width: 70%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 0.3em;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.login-page .flex-container .left-side .or-seperator::after, .login-page .flex-container .left-side .or-seperator::before {
-  content: "";
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1;
-          flex: 1 1;
-  border-bottom: 1px solid;
-  margin: auto;
-}
-
-.login-page .flex-container .left-side .or-seperator::before {
-  margin-right: 10px;
-}
-
-.login-page .flex-container .left-side .or-seperator::after {
-  margin-left: 10px;
-}
-
-@media only screen and (max-width: 950px) {
-  .login-page .flex-container .left-side .or-seperator {
+  .login-page .flex-container .left-side .fullName {
     width: 65%;
   }
 }
 
 .login-page .flex-container .left-side .email-input {
+  margin-top: 0.5em;
   width: 70%;
 }
 
@@ -234,4 +179,4 @@
 .login-page .flex-container .right-side .signup-page {
   text-align: center;
 }
-/*# sourceMappingURL=login.css.map */
+/*# sourceMappingURL=signup.css.map */
