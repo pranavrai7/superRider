@@ -19,58 +19,59 @@
                 font-weight: 600;
                 padding-bottom: 0.5em;
             }
-            // .login-with-google {
-            //     width: 70%;
-            //     display: flex;
-            //     background: #16a083;
-            //     border-radius: 1em;
-            //     margin-bottom: 0.5em;
-            //     cursor: pointer;
-            //     &:hover {
-            //         background: #138a70;
-            //     }
-            //     @include responsive(tab-port) {
-            //         width: 65%;
-            //     }
-            //     span {
-            //         background-color: white;
-            //         border-top-left-radius: 1em;
-            //         border-bottom-left-radius: 1em;
-            //         padding: 0.4em 0.7em;
-            //         margin: 0 0.4em 0 0;
-            //     }
-            //     .log-text {
-            //         margin: 0 auto;
-            //         padding: 0.5em;
-            //         color: white;
-            //         a {
-            //             text-decoration: none;
-            //             color: white;
-            //         }
-            //     }
-            // }
-            // .or-seperator {
-            //     width: 70%;
-            //     display: flex;
-            //     margin-bottom: 0.3em;
-            //     flex-direction: row;
-            //     &::after,
-            //     &::before {
-            //         content: "";
-            //         flex: 1 1;
-            //         border-bottom: 1px solid;
-            //         margin: auto;
-            //     }
-            //     &::before {
-            //         margin-right: 10px;
-            //     }
-            //     &::after {
-            //         margin-left: 10px;
-            //     }
-            //     @include responsive(tab-port) {
-            //         width: 65%;
-            //     }
-            // }
+            .login-with-google {
+                margin-top: 0.8em;
+                width: 70%;
+                display: flex;
+                background: #16a083;
+                border-radius: 1em;
+                margin-bottom: 0.5em;
+                cursor: pointer;
+                &:hover {
+                    background: #138a70;
+                }
+                @include responsive(tab-port) {
+                    width: 65%;
+                }
+                span {
+                    background-color: white;
+                    border-top-left-radius: 1em;
+                    border-bottom-left-radius: 1em;
+                    padding: 0.4em 0.7em;
+                    margin: 0 0.4em 0 0;
+                }
+                .log-text {
+                    margin: 0 auto;
+                    padding: 0.5em;
+                    color: white;
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            .or-seperator {
+                width: 70%;
+                display: flex;
+                margin-bottom: 0.3em;
+                flex-direction: row;
+                &::after,
+                &::before {
+                    content: "";
+                    flex: 1 1;
+                    border-bottom: 1px solid;
+                    margin: auto;
+                }
+                &::before {
+                    margin-right: 10px;
+                }
+                &::after {
+                    margin-left: 10px;
+                }
+                @include responsive(tab-port) {
+                    width: 65%;
+                }
+            }
 
             .fullName {
                 width: 70%;
