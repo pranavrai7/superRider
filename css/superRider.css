@@ -53,10 +53,10 @@ body {
   box-shadow: 0px 5px 10px 0px #aaa;
   position: fixed;
   width: 100%;
-  background: #fff;
-  color: #000;
+  background: rgb(53, 53, 53);
+  color: rgb(255, 255, 255);
   opacity: 0.85;
-  height: 50px;
+  height: 120px;
   z-index: 12;
 }
 
@@ -76,12 +76,13 @@ body {
   list-style: none;
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
+  margin-top: 3.5rem;
   font-size: 1.2rem;
 }
 
 .menu-items a {
   text-decoration: none;
-  color: #444;
+  color: rgb(248, 248, 248);
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
@@ -93,8 +94,12 @@ body {
 
 .logo {
   order: 1;
-  font-size: 2.3rem;
+  font-size: 0.5rem;
   margin-bottom: 0.5rem;
+  margin-top: 3.5rem;
+}
+.logo img{
+  width: 20rem;
 }
 
 .showcase-area {
@@ -103,7 +108,7 @@ body {
       rgba(240, 240, 240, 0.144),
       rgba(255, 255, 255, 0.336)
     ),
-    url("./images/cover.jpg");
+    url("/images/cover.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -480,7 +485,7 @@ body {
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #333;
+    background: rgb(255, 255, 255);
   }
 
   .navbar-container .hamburger-lines .line1 {
@@ -499,7 +504,7 @@ body {
 
   .navbar .menu-items {
     padding-top: 100px;
-    background: #fff;
+    background: rgb(17, 17, 17);
     height: 100vh;
     max-width: 300px;
     transform: translate(-150%);
@@ -519,9 +524,13 @@ body {
 
   .logo {
     position: absolute;
-    top: 5px;
+    top: 2px;
+    margin-top: 2rem;
     right: 15px;
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+  .logo img{
+    width: 18rem;
   }
 
   .navbar-container input[type="checkbox"]:checked ~ .menu-items {
@@ -601,6 +610,9 @@ body {
     right: 15px;
     font-size: 3rem;
   }
+  .logo img{
+    width: 13rem;
+  }
 
   .navbar .menu-items li {
     margin-bottom: 2.5rem;
@@ -617,10 +629,16 @@ body {
   .img-container .btn {
     font-size: 0.7rem;
   }
+  .logo img{
+    width: 20rem;
+  }
 }
 
 @media (orientation: landscape) and (max-height: 500px) {
   .showcase-area {
     height: 50vmax;
+  }
+  .logo img{
+    width: 15rem;
   }
 }
