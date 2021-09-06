@@ -318,8 +318,8 @@ body {
 
 .halmetCard .card .image-container {
   overflow: hidden;
-  height: 80%;
-  width: 80%;
+  height: 60%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -330,7 +330,7 @@ body {
 
 .halmetCard .card .name-of-brand {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 400;
   color: #666;
 }
