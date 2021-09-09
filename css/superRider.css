@@ -21,6 +21,10 @@ body {
   width: 90%;
   margin: auto;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 
 .btn {
   display: inline-block;
@@ -56,7 +60,7 @@ body {
   background: rgba(0, 0, 0, 0.776);
   color: #000;
   opacity: 0.85;
-  height: 120px;
+  height: 90px;
   z-index: 12;
 }
 
@@ -82,7 +86,7 @@ body {
   list-style: none;
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
-  margin-top: 3.5rem;
+  margin-top: 3rem;
   font-size: 1.2rem;
 }
 
@@ -102,7 +106,7 @@ body {
   order: 1;
   font-size: 0.5rem;
   margin-bottom: 0.5rem;
-  margin-top: 3.5rem;
+  margin-top: 2rem;
 }
 
 .logo .image-container {
